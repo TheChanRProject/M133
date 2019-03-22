@@ -1,7 +1,8 @@
-from os import listdir, system, getcwd
-from os.path import isfile, join, dirname
-getcwd()
-nb_path = dirname('/Volumes/DSDRIVE/DS/Python/Splash/M133' + '/nb')
-print(nb_path)
-onlyfiles = [f for f in listdir(nb_path) if isfile(join(nb_path, f))]
+from os import listdir, system
+from os.path import isfile, join
+from pathlib import Path
+Path.cwd()
+onlyfiles = [f for f in listdir('/Volumes/DSDRIVE/DS/Python/Splash/M133/nb') if isfile(join('/Volumes/DSDRIVE/DS/Python/Splash/M133/nb', f))]
 print(onlyfiles)
+file_names = [i[:-6] for i in onlyfiles]
+print(file_names)
