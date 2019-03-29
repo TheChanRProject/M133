@@ -4,3 +4,7 @@ Medium Articles:
 
 arXiv Articles:
 1. https://arxiv.org/abs/1808.00926
+
+Kaggle Competition: 
+
+https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
