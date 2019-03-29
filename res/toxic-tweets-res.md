@@ -3,7 +3,8 @@ Medium Articles:
 
 
 arXiv Articles:
-1. https://arxiv.org/abs/1808.00926
+1. https://arxiv.org/abs/1808.00926.pdf
+2. https://arxiv.org/pdf/1809.08651.pdf
 
 Kaggle Competition: 
 
